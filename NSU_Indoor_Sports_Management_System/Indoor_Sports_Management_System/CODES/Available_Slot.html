@@ -1,0 +1,73 @@
+<html>
+    <head>
+    <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="topnav">
+      <a class="active" href="Admin.php">Admin Panel</a>
+      <a href="Remove  sports from your club.html">Remove Sports</a>
+      <a href="Log in Form.html">Log Out</a>
+    </div>
+    
+  
+
+    <div class ="info">
+      <h1>Edit Slots</h1>
+
+    <form action="Available_Slot.php" method="POST">
+        <lable for="name">SPORTS_NAME</lable>
+        <input type="text" id="SPORTS_NAME" name="SPORTS_NAME">
+        <br>
+        <br>
+        <lable for="">DATE</lable>
+        <input type="date" id="SLOT_DATE" name="SLOT_DATE">
+        <br>
+        <br>
+        <lable for="">TIME</lable>
+        <input type="time" id="SLOT_TIME" name="SLOT_TIME">
+        <br>
+        <br>
+        <lable for="">SLOT_NUMBER</lable>
+        <input type="number" id="SLOT_NUMBER" name="SLOT_NUMBER">
+        <br>
+        <br>
+        <input type="submit" value="Save">
+    </form>
+    </div>
+
+    
+    
+    
+    </body>
+    </html>
